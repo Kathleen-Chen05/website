@@ -5,14 +5,14 @@
 }
 
 .backgroundImage {
-  background-image: url(../ing/Target.jpg);
+  background-image: url(../img/Target.jpg);
   width: 750px; 
   height: 700px; 
   margin: 64px auto;
 }
 
 .backgroundImage:hover {
-  background-image: url(../ing/TargetBullseye.jpeg);
+  background-image: url(../img/TargetBullseye.jpeg);
   width: 350px; 
   height: 350px; 
   cursor: crosshair;
