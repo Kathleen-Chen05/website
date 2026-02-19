@@ -1,5 +1,45 @@
 /* styles.css */
 
 * {
-	font-family: Arial;
+  font-family: Arial;
+}
+
+.backgroundImage {
+  background-image: url(../ing/Target.jpg);
+  width: 750px; 
+  height: 700px; 
+  margin: 64px auto;
+}
+
+.backgroundImage:hover {
+  background-image: url(../ing/TargetBullseye.jpeg);
+  width: 350px; 
+  height: 350px; 
+  cursor: crosshair;
+}
+
+body {
+  background-color: #CC0000;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 48px;
+  text-align: center;
+}
+
+.text {
+  width: 58%;
+  margin: 96px auto;
+}
+
+h2 {
+  color: #FFFFFF; 
+  font-size: 100px; 
+  text-align: center; 
+  font-family: "Jost", sans-serif; 
+  font-optical-sizing: auto; 
+  font-weight: 900; 
+  font-style: normal;
 }
